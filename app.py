@@ -5,6 +5,7 @@ app = Flask(__name__)
 def mock():
     events = [
         {
+            "eventname" : "event1",
             "date": "2023-08-25",
             "address": "東京都新宿区西新宿二丁目8番1号",
             "media": "Website",
@@ -12,6 +13,7 @@ def mock():
             "people": 200
         },
         {
+            "eventname" : "event2",
             "date": "2023-08-26",
             "address" : "東京都墨田区押上１丁目１−２",
             "media": "TV",
