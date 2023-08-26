@@ -22,6 +22,7 @@ json形式
 ```
 [
     {
+        "eventname" : イベント名称(string),
         "date" : イベントの日付(string, "YYYY-MM-DD"),
         "address": 住所(string),    
         "media" : イベント掲載媒体(string),
@@ -29,6 +30,7 @@ json形式
         "people" : 過去のイベント規模 人の人数(int)
     },
     {
+        "eventname" : イベント名称(string),
         "date" : イベントの日付(string, "YYYY-MM-DD"),
         "address": 住所(string),    
         "media" : イベント掲載媒体(string),
